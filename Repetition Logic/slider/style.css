@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 50%;
+    height:300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    padding-top: 60px;
+
+}
+#prew{
+   padding: 10px 10px;
+   background-color: wheat;
+   border-radius: 50%;
+   font-size: 30px;
+   position: relative;
+   top: -70%;
+   left: 3%;
+   cursor: pointer;
+
+}
+#next{
+    padding: 10px 10px;
+    background-color: wheat;
+    border-radius: 50%;
+    font-size: 30px;
+    position: relative;
+    top: -70%;
+    left: -3%;
+    cursor: pointer;
+ }
