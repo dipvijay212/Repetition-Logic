@@ -24,24 +24,3 @@ function slide(){
     
 }
 setInterval(slide,3000);
-  // function updateClock() {
-  //   const now = new Date();
-  //   const hours = now.getHours();
-  //   const minutes = now.getMinutes();
-  //   const seconds = now.getSeconds();
-    
-  //   const formattedTime = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
-    
-    
-  //   document.getElementById('clock').innerHTML = formattedTime;
-  // }
-  
-  // function pad(value) {
-  //   return (value < 10 ? '0' : '') + value;
-  // }
-  
-
-  // setInterval(updateClock, 1000);
-  
-  // updateClock();
-  
